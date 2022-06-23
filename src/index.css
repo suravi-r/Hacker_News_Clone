@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.base {
+  display: flex;
+  background-color: rgb(246, 246, 240);
+  width: 1200px;
+  height: 1050px;
+  margin-left: 110px;
+  flex-direction: column;
+}
+
+.line {
+  border: 1px solid rgb(255, 102, 0);
+}
+
+.footer-button-area {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-buttons {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: none;
+  font-size: 11px;
+  background-color: rgb(246, 246, 240);
+}
+
+.search-bar-area {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  margin-left: 5px;
+}
+
+.font1 {
+  color: gray;
+}
+
+.news,
+.news-piece {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.news-title {
+  display: flex;
+}
+
+.source {
+  margin-left: 3px;
+  font-size: 15px;
+}
+
+.about {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: rgb(255, 102, 0);
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-left: 20px;
+  padding: 3px;
+  font-weight: bold;
+  font: Arial Black;
+}
+
+.buttons {
+  border: none;
+  background-color: rgb(255, 102, 0);
+  font-size: 15px;
+  margin-right: 2px;
+  margin-left: 2px;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.buttons2 {
+  color: gray; 
+  text-decoration: none;
+  border : none;
+  background-color: rgb(246, 246, 240);
+  font-size: 11px;
 }
